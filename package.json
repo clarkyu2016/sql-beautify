@@ -1,0 +1,82 @@
+{
+	"name": "vscode-sql-beautify",
+	"displayName": "SQL Beautify",
+	"description": "More Powerful extension that beautifies SQL/一键美化你的SQL",
+	"version": "0.1.25",
+	"publisher": "clarkyu",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"keywords": [
+		"hive",
+		"sql",
+		"formatters",
+		"格式化",
+		"美化",
+		"beautify"
+	],
+	"categories": [
+		"Formatters"
+	],
+	"activationEvents": [
+		"onLanguage:sql",
+		"onLanguage:hive-sql"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/clarkyu2016/sql-beautify.git"
+	},
+	"main": "./extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.beautifySql",
+				"title": "Beautify SQL"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.beautifySql",
+				"key": "alt+shift+f",
+				"when": "editorTextFocus && !editorReadonly && editorLangId =~ /sql/ "
+			},
+			{
+				"command": "extension.beautifySqlddl",
+				"key": "alt+shift+l",
+				"when": "editorTextFocus && !editorReadonly && editorLangId =~ /sql/ "
+			},
+			{
+				"command": "extension.extractDdl",
+				"key": "alt+shift+;",
+				"when": "editorTextFocus && !editorReadonly && editorLangId =~ /sql/ "
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Beautify SQL",
+			"properties": {
+				"extension.uppercase": {
+					"scope": "resource",
+					"type": "boolean",
+					"default": true,
+					"description": "Convert keywords to uppercase"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"icon": "images/icon.png",
+	"dependencies": {
+		"vkbeautify": "0.99.1"
+	},
+	"devDependencies": {
+		"vscode": "^0.11.0"
+	},
+	"__metadata": {
+		"id": "3422b2ca-7151-4627-b7ce-adf888562d04",
+		"publisherId": "b095b96a-0807-4555-a2ff-b774781d6e68",
+		"publisherDisplayName": "clarkyu"
+	}
+}
