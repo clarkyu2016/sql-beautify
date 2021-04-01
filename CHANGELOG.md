@@ -7,6 +7,10 @@ You can choose convert key words to uppercase or lowercase in Settings.(Default 
 
 ## 😎 更迭日志 Release Notes 
 
+### 0.1.28
+
+fix [the bug of COMMENT](https://github.com/clarkyu2016/sql-beautify/issues/3) @aleegreat 
+
 ### 0.1.24
 
 add hive-sql format support
