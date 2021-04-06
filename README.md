@@ -59,3 +59,11 @@ Extract ddl from insert sql !  Make sure the language is set to `SQL`,then selec
 你可以选择把关键词转换成大写还是小写（默认是转化大写）
 
 You can choose convert key words to uppercase or lowercase in Settings.(Default is Uppercase)
+
+## 🎅 联系我 Contact Me
+
+如果有任何问题，欢迎在Issues上留言提问题给我。也可以通过我的微信和我联系
+
+If you have any problem,welcome to submit issues or You can contact me via wechat.
+
+![wechat](images/wechat.jpg)
