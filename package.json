@@ -2,7 +2,7 @@
 	"name": "vscode-sql-beautify",
 	"displayName": "SQL Beautify",
 	"description": "More Powerful extension that beautifies SQL/一键美化你的SQL",
-	"version": "0.1.28",
+	"version": "0.1.29",
 	"publisher": "clarkyu",
 	"engines": {
 		"vscode": "^1.5.0"
