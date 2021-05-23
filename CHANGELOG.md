@@ -7,6 +7,12 @@ You can choose convert key words to uppercase or lowercase in Settings.(Default 
 
 ## 😎 更迭日志 Release Notes 
 
+### 0.1.30
+
+Add comma location setting.
+
+![comma](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/comma.png?raw=true)
+
 ### 0.1.28
 
 fix [the bug of COMMENT](https://github.com/clarkyu2016/sql-beautify/issues/4) @LiHaoyu1994 

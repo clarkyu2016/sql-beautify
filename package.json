@@ -59,7 +59,13 @@
 					"scope": "resource",
 					"type": "boolean",
 					"default": true,
-					"description": "Convert keywords to uppercase"
+					"description": "Convert keywords to uppercase/将关键词转变为大写"
+				},
+				"extension.comma_location": {
+					"scope": "resource",
+					"type": "boolean",
+					"default": false,
+					"description": "Fix the comma location to the end of the line/把逗号放在字段后面(不建议开启)"
 				}
 			}
 		}
@@ -77,6 +83,7 @@
 	"__metadata": {
 		"id": "3422b2ca-7151-4627-b7ce-adf888562d04",
 		"publisherId": "b095b96a-0807-4555-a2ff-b774781d6e68",
-		"publisherDisplayName": "clarkyu"
+		"publisherDisplayName": "clarkyu",
+		"installedTimestamp": 1617699813124
 	}
 }

@@ -54,6 +54,14 @@ Extract ddl from insert sql !  Make sure the language is set to `SQL`,then selec
 ![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo3.gif?raw=true)
 
 
+## ✨ 最新更新 What's new on 0.1.30?
+
+你可以自由选择逗号位置后置还是前置(默认前置，更多内容可以参考[开发日志](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89))
+
+You can choose fix the comma location to the end of the line.(NO RECOMMENDED)
+
+![comma](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/comma.png?raw=true)
+
 ## ✨ 最新更新 What's new on 0.1.21?
 
 你可以选择把关键词转换成大写还是小写（默认是转化大写）
