@@ -5,6 +5,8 @@
 
 Add "Use whitespace to replace Tab in the indentation of subquery" setting.
 端午节快乐！
+![tablevswhitespace](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/tablevswhitespace.png?raw=true)
+
 
 ### 0.1.30
 
