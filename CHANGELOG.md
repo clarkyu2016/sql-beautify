@@ -1,11 +1,10 @@
 
-## ✨ 最新更新 What's new on 0.1.21?
-
-你可以选择把关键词转换成大写还是小写（默认是转化大写）
-
-You can choose convert key words to uppercase or lowercase in Settings.(Default is Uppercase)
-
 ## 😎 更迭日志 Release Notes 
+
+### 0.1.32
+
+Add "Use whitespace to replace Tab in the indentation of subquery" setting.
+端午节快乐！
 
 ### 0.1.30
 

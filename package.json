@@ -66,6 +66,12 @@
 					"type": "boolean",
 					"default": false,
 					"description": "Fix the comma location to the end of the line/把逗号放在字段后面(不建议开启)"
+				},
+				"extension.bracket_char": {
+					"scope": "resource",
+					"type": "boolean",
+					"default": false,
+					"description": "Use whitespace to replace Tab in the indentation of subquery  /在子查询缩进场景中，把制表符替换成四个空格"
 				}
 			}
 		}
@@ -84,6 +90,6 @@
 		"id": "3422b2ca-7151-4627-b7ce-adf888562d04",
 		"publisherId": "b095b96a-0807-4555-a2ff-b774781d6e68",
 		"publisherDisplayName": "clarkyu",
-		"installedTimestamp": 1617699813124
+		"installedTimestamp": 1621955620169
 	}
 }
