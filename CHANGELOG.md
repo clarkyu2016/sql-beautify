@@ -1,6 +1,11 @@
 
 ## 😎 更迭日志 Release Notes 
 
+
+### 0.1.32
+Fixed some bugs with "Comments"
+
+
 ### 0.1.32
 
 Add "Use whitespace to replace Tab in the indentation of subquery" setting.
