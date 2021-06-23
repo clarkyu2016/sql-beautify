@@ -1,20 +1,27 @@
 
 ## 😎 更迭日志 Release Notes 
 
+### 0.1.36 (2021/06/24)
+Fixed some bugs with "Comments". 
+
+If you have many irregular comments in your code, please be careful when use sql-beautify, which may cause some unknown bugs.
+
+修复了一些带有注释的问题。
+
+如果你的代码中有很多非常规的注释，请小心使用本插件，可能会有些未知的错误。
 
 ### 0.1.32
-Fixed some bugs with "Comments"
-
+Fixed some bugs with "Comments".
 
 ### 0.1.32
-
 Add "Use whitespace to replace Tab in the indentation of subquery" setting.
+
 端午节快乐！
+
 ![tablevswhitespace](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/tablevswhitespace.png?raw=true)
 
 
 ### 0.1.30
-
 Add comma location setting.
 
 ![comma](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/comma.png?raw=true)
