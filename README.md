@@ -22,9 +22,12 @@
 
 ## 💡 注意 Attention
 
-这个插件在hql语句上更加兼容，因为它是我的主要工作语言。
+* 这个插件在hql语句上更加兼容，因为它是我的主要工作语言。如果你在其他类型sql上使用，请小心使用，尤其是你的代码比较复杂的时候。This extension is more compatible in `Hive SQL` than in other sql language. If you develop on other sql language, it may cause some problems when the code is complex.
 
-This extension is more compatible in `Hive SQL` than in other sql language (Beacuse Hive sql is my working language 0_0).
+* 请小心使用本插件，建议对代码一段段进行格式化，而不是对整个文件一次性进行格式化。
+Please be careful when use this plugin. Do not use it for the whole file. Recommend using it on code blocks one by one.
+
+* 如果你真的遇到什么问题了，请先`Ctrl+z`恢复你的代码，然后可以联系我修复可能存在的问题。If you have some problems, try to use `Ctrl+z` to recover your code and contact me to fix the bug if you wish.
 
 
 ## 💥 特点 Features 
@@ -33,19 +36,19 @@ This extension is more compatible in `Hive SQL` than in other sql language (Beac
 
 一键美化你的SQL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+f`即可使用！ 
 
-Beatify your SQL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+f` just like you normally would.
+Beautify your SQL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+f` just like you normally would.
 
 ![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo.gif?raw=true)
 
-### Beautify SQL DDL 
+### Beautify SQL DDL (Only for hive-sql)
 
 一键美化你的DDL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+l`即可使用！ 
 
-Beatify your SQL DDL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+l`.
+Beautify your SQL DDL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+l`.
 
 ![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo2.gif?raw=true)
 
-### Extract SQL DDL
+### Extract SQL DDL (Only for hive-sql)
 
 一键从你的Insert语句中提取的DDL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+;`即可使用！ 
 
