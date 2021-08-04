@@ -77,4 +77,4 @@ You can choose convert key words to uppercase or lowercase in Settings.(Default 
 
 If you have any problem,welcome to submit issues or You can contact me via wechat.
 
-![wechat](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/wechat.jpg?raw=true)
+![wechat](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/wechat1.jpg?)

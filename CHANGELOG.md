@@ -1,6 +1,11 @@
 
 ## 😎 更迭日志 Release Notes 
 
+### 0.2.4 (2021/07/14)
+* 删除了每行末尾不必要的空格
+* delete [the whitespace character at the end of line](https://github.com/clarkyu2016/sql-beautify/issues/4) @Geek-Roc
+* 修复了一些带有注释的问题
+* Fixed some bugs with "Comments".
 
 ### 0.1.39 (2021/07/14)
 * 支持了"With...as..."的格式化
