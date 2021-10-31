@@ -1,6 +1,14 @@
 
 ## 😎 更迭日志 Release Notes 
 
+### 0.2.8 (2021/11/01)
+* 修复了一些带有注释的问题，包括注释后面重新逗号和括号以及复原的问题
+* Fixed some bugs with "Comments".
+* 修复了一个ddl美化的bug
+* Fixed [a ddl bug](https://github.com/clarkyu2016/sql-beautify/issues/16) @xubuild
+* 修复了一些其他的bug
+* Fixed some bugs @rongsheng @zhangzhe @wuhuanzi
+
 ### 0.2.4 (2021/07/14)
 * 删除了每行末尾不必要的空格
 * delete [the whitespace character at the end of line](https://github.com/clarkyu2016/sql-beautify/issues/4) @Geek-Roc

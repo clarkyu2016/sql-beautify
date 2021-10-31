@@ -72,6 +72,11 @@
 					"type": "boolean",
 					"default": false,
 					"description": "Use whitespace to replace Tab in the indentation of subquery  /在子查询缩进场景中，把制表符替换成四个空格"
+				},"extension.as_loc_cnt": {
+					"scope": "resource",
+					"type": "number",
+					"default": 150,
+					"description": "Set max length of the column to align words after `as`  /自定义当你的字段长度超过多少字符，不参加as对齐(整个字段长度包括as后面的列名)"
 				}
 			}
 		}
@@ -90,6 +95,6 @@
 		"id": "3422b2ca-7151-4627-b7ce-adf888562d04",
 		"publisherId": "b095b96a-0807-4555-a2ff-b774781d6e68",
 		"publisherDisplayName": "clarkyu",
-		"installedTimestamp": 1621955620169
+		"installedTimestamp": 1635688154962
 	}
 }

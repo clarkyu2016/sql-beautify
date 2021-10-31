@@ -20,6 +20,41 @@
 [VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=clarkyu.vscode-sql-beautify)
 
 
+## 💥 特点 Features 
+
+### 1. Beautify SQL
+
+一键美化你的SQL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+f`即可使用！ 
+
+Beautify your SQL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+f` just like you normally would.
+
+![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo.gif?raw=true)
+
+### 2. Beautify SQL DDL (Only for hive-sql)
+
+一键美化你的DDL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+l`即可使用！ 
+
+Beautify your SQL DDL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+l`.
+
+![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo2.gif?raw=true)
+
+### 3. Extract SQL DDL (Only for hive-sql)
+
+一键从你的Insert语句中提取的DDL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+;`即可使用！ 
+
+Extract ddl from insert sql !  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+;`.
+
+![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo3.gif?raw=true)
+
+### 4. Customize your own style 🐱‍🏍
+你可以在vscode中文件-首选项-设置-扩展中找到一些自定义内容。详细的说明，可以阅读wiki-[功能说明](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E-Features)！
+
+Customize your own sql-beautify style in [settings-extension]. For more detail, please read wiki [Features](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E-Features) to get more details about features of this extension
+
+![customize](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/customize.png?raw=true)
+
+
+
 ## 💡 注意 Attention
 
 * 这个插件在hql语句上更加兼容，因为它是我的主要工作语言。如果你在其他类型sql上使用，请小心使用，尤其是你的代码比较复杂的时候。This extension is more compatible in `Hive SQL` than in other sql language. If you develop on other sql language, it may cause some problems when the code is complex.
@@ -28,48 +63,6 @@
 Please be careful when use this plugin. Do not use it for the whole file. Recommend using it on code blocks one by one.
 
 * 如果你真的遇到什么问题了，请先`Ctrl+z`恢复你的代码，然后可以联系我修复可能存在的问题。If you have some problems, try to use `Ctrl+z` to recover your code and contact me to fix the bug if you wish.
-
-
-## 💥 特点 Features 
-
-### Beautify SQL
-
-一键美化你的SQL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+f`即可使用！ 
-
-Beautify your SQL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+f` just like you normally would.
-
-![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo.gif?raw=true)
-
-### Beautify SQL DDL (Only for hive-sql)
-
-一键美化你的DDL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+l`即可使用！ 
-
-Beautify your SQL DDL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+l`.
-
-![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo2.gif?raw=true)
-
-### Extract SQL DDL (Only for hive-sql)
-
-一键从你的Insert语句中提取的DDL！请确保你使用的语言是`SQL`，选择需要优化的代码块，按下`Alt+Shift+;`即可使用！ 
-
-Extract ddl from insert sql !  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+;`.
-
-![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo3.gif?raw=true)
-
-
-## ✨ 最新更新 What's new on 0.1.30?
-
-你可以自由选择逗号位置后置还是前置(默认前置，更多内容可以参考[开发日志](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89))
-
-You can choose fix the comma location to the end of the line.(NO RECOMMENDED)
-
-![comma](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/comma.png?raw=true)
-
-## ✨ 最新更新 What's new on 0.1.21?
-
-你可以选择把关键词转换成大写还是小写（默认是转化大写）
-
-You can choose convert key words to uppercase or lowercase in Settings.(Default is Uppercase)
 
 ## 🎅 联系我 Contact Me
 

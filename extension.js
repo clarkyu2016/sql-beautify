@@ -35,7 +35,8 @@ function activate(context) {
                 var uppercase  = vscode.workspace.getConfiguration('extension').get('uppercase');
                 var comma_location  = vscode.workspace.getConfiguration('extension').get('comma_location'); //逗号位置
                 var bracket_char  = vscode.workspace.getConfiguration('extension').get('bracket_char'); //缩进位置
-                var bt = vkbeautify.sql(text,uppercase,comma_location,bracket_char);
+                var as_loc_cnt  = vscode.workspace.getConfiguration('extension').get('as_loc_cnt'); //as最大数
+                var bt = vkbeautify.sql(text,uppercase,comma_location,bracket_char,as_loc_cnt);
                 builder.replace(range, bt);
             }
         });
