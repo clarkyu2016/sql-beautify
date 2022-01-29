@@ -1,6 +1,13 @@
 
 ## 😎 更迭日志 Release Notes 
 
+### 0.3.0 (2023/01/29)
+* 修复了小写关键词设置下对某些字段名的错误小写
+* Fixed some bugs when using lowercase keywords.@ljfre
+* 感谢@ivaquero修复了"Extension 'SQL Beautify' is configured as formatter but it cannot format 'SQL'-files" 的问题
+* Thanks for @ivaquero fixed the bug "Extension 'SQL Beautify' is configured as formatter but it cannot format 'SQL'-files" 
+* 祝大家2022年新年快乐！
+
 ### 0.2.8 (2021/11/01)
 * 修复了一些带有注释的问题，包括注释后面重新逗号和括号以及复原的问题
 * Fixed some bugs with "Comments".
