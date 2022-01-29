@@ -20,7 +20,8 @@
 	],
 	"activationEvents": [
 		"onLanguage:sql",
-		"onLanguage:hive-sql"
+		"onLanguage:hive-sql",
+		"onCommand:extension.beautifySql"
 	],
 	"repository": {
 		"type": "git",
