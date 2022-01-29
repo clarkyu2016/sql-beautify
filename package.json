@@ -2,7 +2,7 @@
 	"name": "vscode-sql-beautify",
 	"displayName": "SQL Beautify",
 	"description": "More Powerful extension that beautifies SQL/一键美化你的SQL",
-	"version": "0.2.7",
+	"version": "0.2.9",
 	"publisher": "clarkyu",
 	"engines": {
 		"vscode": "^1.5.0"
@@ -73,7 +73,8 @@
 					"type": "boolean",
 					"default": false,
 					"description": "Use whitespace to replace Tab in the indentation of subquery  /在子查询缩进场景中，把制表符替换成四个空格"
-				},"extension.as_loc_cnt": {
+				},
+				"extension.as_loc_cnt": {
 					"scope": "resource",
 					"type": "number",
 					"default": 150,
@@ -93,9 +94,10 @@
 		"vscode": "^0.11.0"
 	},
 	"__metadata": {
+		"installedTimestamp": 1643467763066,
 		"id": "3422b2ca-7151-4627-b7ce-adf888562d04",
 		"publisherId": "b095b96a-0807-4555-a2ff-b774781d6e68",
 		"publisherDisplayName": "clarkyu",
-		"installedTimestamp": 1635688154962
+		"isPreReleaseVersion": false
 	}
 }
