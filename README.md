@@ -66,7 +66,7 @@ Please be careful when use this plugin. Do not use it for the whole file. Recomm
 
 
 # 😎 更迭日志 Release Notes 
-## 0.3.3 (2023/02/23)
+## 0.3.5 (2023/02/23)
 * 感谢[@fourgold](https://github.com/fourgold)新增了两个功能,在小写模式开启下：where后面and和on的对齐，以及注释的对齐
 * Thanks for [@fourgold](https://github.com/fourgold) to add new functions and let SQL Beuatify can order the comment and insert indents before 'and' and 'on'
 * 再次修复了小写关键词设置下对某些字段名的错误小写
