@@ -1,11 +1,17 @@
 
 ## 😎 更迭日志 Release Notes 
 
+### 0.3.2 (2023/02/23)
+* 感谢[@fourgold](https://github.com/fourgold)新增了两个功能,在小写模式开启下：where后面and和on的对齐，以及注释的对齐
+* Thanks for [@fourgold](https://github.com/fourgold) to add new functions and let SQL Beuatify can order the comment and insert indents before 'and' and 'on'
+* 再次修复了小写关键词设置下对某些字段名的错误小写
+* Fixed some bugs when using lowercase keywords.
+
 ### 0.3.0 (2023/01/29)
 * 修复了小写关键词设置下对某些字段名的错误小写
 * Fixed some bugs when using lowercase keywords.@ljfre
-* 感谢@ivaquero修复了"Extension 'SQL Beautify' is configured as formatter but it cannot format 'SQL'-files" 的问题
-* Thanks for @ivaquero fixed the bug "Extension 'SQL Beautify' is configured as formatter but it cannot format 'SQL'-files" 
+* 感谢@italodamato 修复了"Extension 'SQL Beautify' is configured as formatter but it cannot format 'SQL'-files" 的问题
+* Thanks for @italodamato to fixed the bug "Extension 'SQL Beautify' is configured as formatter but it cannot format 'SQL'-files" 
 * 祝大家2022年新年快乐！
 
 ### 0.2.8 (2021/11/01)
