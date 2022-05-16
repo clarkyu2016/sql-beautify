@@ -66,6 +66,10 @@ Please be careful when use this plugin. Do not use it for the whole file. Recomm
 
 
 # 😎 更迭日志 Release Notes 
+### 0.3.6 (2022/05/17)
+* 修复了一些错误，感谢@BryceQin, @timegambler和@thx-god
+* Fixed some bugs,Thanks for @BryceQin, @timegambler and @thx-god
+
 ## 0.3.5 (2022/02/23)
 * 感谢[@fourgold](https://github.com/fourgold)新增了两个功能,在小写模式开启下：where后面and和on的对齐，以及注释的对齐
 * Thanks for [@fourgold](https://github.com/fourgold) to add new functions and let SQL Beuatify can order the comment and insert indents before 'and' and 'on'

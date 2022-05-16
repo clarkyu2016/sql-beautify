@@ -94,10 +94,10 @@
 		"vscode": "^0.11.0"
 	},
 	"__metadata": {
-		"installedTimestamp": 1643467763066,
 		"id": "3422b2ca-7151-4627-b7ce-adf888562d04",
 		"publisherId": "b095b96a-0807-4555-a2ff-b774781d6e68",
 		"publisherDisplayName": "clarkyu",
-		"isPreReleaseVersion": false
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1645624999063
 	}
 }
