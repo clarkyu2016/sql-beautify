@@ -65,17 +65,18 @@ Please be careful when use this plugin. Do not use it for the whole file. Recomm
 * 如果你真的遇到什么问题了，请先`Ctrl+z`恢复你的代码，然后可以联系我修复可能存在的问题。If you have some problems, try to use `Ctrl+z` to recover your code and contact me to fix the bug if you wish.
 
 
-# 😎 更迭日志 Release Notes 
+# 😎 更迭日志 Release Notes  
+### 0.3.9 (2022/05/27)
+* 调整了引号内的格式化逻辑，修正以前的错误问题(看起来很难遇到的[“大优化”](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89#%E6%96%B0%E5%A2%9E%E4%BA%86%E5%AF%B9%E5%BC%95%E5%8F%B7%E5%86%85%E5%AD%97%E7%AC%A6%E4%B8%8D%E6%93%8D%E4%BD%9C%E7%9A%84%E9%80%BB%E8%BE%91-20220527))
+* Adjusted logic for formatting "string" inside quotes
+
+
 ### 0.3.6 (2022/05/17)
 * 修复了一些错误，感谢@BryceQin, @timegambler和@thx-god
 * Fixed some bugs,Thanks for @BryceQin, @timegambler and @thx-god
 
-## 0.3.5 (2022/02/23)
-* 感谢[@fourgold](https://github.com/fourgold)新增了两个功能,在小写模式开启下：where后面and和on的对齐，以及注释的对齐
-* Thanks for [@fourgold](https://github.com/fourgold) to add new functions and let SQL Beuatify can order the comment and insert indents before 'and' and 'on'
-* 再次修复了小写关键词设置下对某些字段名的错误小写
-* Fixed some bugs when using lowercase keywords.
 
+ [**More Release Notes**](https://github.com/clarkyu2016/sql-beautify/blob/main/CHANGELOG.md)
 
 # 🎅 联系我 Contact Me
 
