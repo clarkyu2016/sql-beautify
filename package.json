@@ -98,6 +98,9 @@
 		"publisherId": "b095b96a-0807-4555-a2ff-b774781d6e68",
 		"publisherDisplayName": "clarkyu",
 		"isPreReleaseVersion": false,
-		"installedTimestamp": 1645624999063
+		"installedTimestamp": 1662287892731,
+		"targetPlatform": "undefined",
+		"updated": true,
+		"preRelease": false
 	}
 }
