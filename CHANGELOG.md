@@ -1,5 +1,9 @@
 
-## 😎 更迭日志 Release Notes 
+## 😎 更迭日志 Release Notes
+### 0.3.16 (2022/11/21)
+* 合并了@fourgold的Pull，优化了强制转换关键词为小写的体验
+* Merge [Fourgold's Pull](https://github.com/clarkyu2016/sql-beautify/pull/46) @fourgold
+
 ### 0.3.13 (2022/06/15)
 * 修正了注释下面接with语句的格式化问题@BryceQin
 * FIx [the bug of COMMENT and With](https://github.com/clarkyu2016/sql-beautify/issues/40) @BryceQin
@@ -61,14 +65,14 @@
 ### 0.1.32
 * Add "Use whitespace to replace Tab in the indentation of subquery" setting.
 
-![tablevswhitespace](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/tablevswhitespace.png?raw=true)
+![tablevswhitespace](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/tablevswhitespace.png?raw=true)
 
 * 端午节快乐！
 
 ### 0.1.30
 * Add comma location setting.
 
-![comma](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/comma.png?raw=true)
+![comma](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/comma.png?raw=true)
 
 ### 0.1.28
 
@@ -106,7 +110,7 @@
 
 * Align words after `as` left
 
-![as](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/as.gif?raw=true)
+![as](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/as.gif?raw=true)
 
 ### 0.0.12
 * Fix some bugs of auto-wrap

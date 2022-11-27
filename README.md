@@ -12,7 +12,7 @@
 </p>
 
 <div align=center>
-<img  src="https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo.gif"/>
+<img  src="https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/demo.gif"/>
 </div>
 
 
@@ -28,7 +28,7 @@
 
 Beautify your SQL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+f` just like you normally would.
 
-![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo.gif)
+![demo](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/demo.gif)
 
 ## 2. Beautify SQL DDL (Only for hive-sql)
 
@@ -36,7 +36,7 @@ Beautify your SQL!  Make sure the language is set to `SQL`,then select your sql 
 
 Beautify your SQL DDL!  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+l`.
 
-![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo2.gif)
+![demo](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/demo2.gif)
 
 ## 3. Extract SQL DDL (Only for hive-sql)
 
@@ -44,14 +44,14 @@ Beautify your SQL DDL!  Make sure the language is set to `SQL`,then select your 
 
 Extract ddl from insert sql !  Make sure the language is set to `SQL`,then select your sql code and press `Alt+Shift+;`.
 
-![demo](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/demo3.gif)
+![demo](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/demo3.gif)
 
 ## 4. Customize your own style 🐱‍🏍
 你可以在vscode中文件-首选项-设置-扩展中找到一些自定义内容。详细的说明，可以阅读wiki-[功能说明](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E-Features)！
 
 Customize your own sql-beautify style in [settings-extension]. For more detail, please read wiki [Features](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E-Features) to get more details about features of this extension
 
-![customize](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/customize.png)
+![customize](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/customize.png)
 
 
 
@@ -65,7 +65,11 @@ Please be careful when use this plugin. Do not use it for the whole file. Recomm
 * 如果你真的遇到什么问题了，请先`Ctrl+z`恢复你的代码，然后可以联系我修复可能存在的问题。If you have some problems, try to use `Ctrl+z` to recover your code and contact me to fix the bug if you wish.
 
 
-# 😎 更迭日志 Release Notes  
+# 😎 更迭日志 Release Notes
+### 0.3.16 (2022/11/21)
+* 合并了@fourgold的Pull，优化了强制转换关键词为小写的体验
+* Merge [Fourgold's Pull](https://github.com/clarkyu2016/sql-beautify/pull/46) @fourgold
+
 ### 0.3.13 (2022/06/15)
 * 修正了注释下面接with语句的格式化问题@BryceQin
 * FIx [the bug of COMMENT and With](https://github.com/clarkyu2016/sql-beautify/issues/40) @BryceQin
@@ -87,5 +91,5 @@ Please be careful when use this plugin. Do not use it for the whole file. Recomm
 
 If you have any problem,welcome to submit issues or You can contact me via wechat.
 
-![wechat](https://clarkyu1993.coding.net/p/tuku/d/pic/git/raw/master/wechat1.jpg)
+![wechat](https://clarkyu1993.coding.net/p/tuku/shared-depot/pic/git/raw/master/wechat.jpg)
 
