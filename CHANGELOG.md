@@ -1,5 +1,9 @@
 
 ## 😎 更迭日志 Release Notes
+### 0.3.17 (2023/03/14)
+* 修正了字段中的select会被分行@maohr
+* FIx [the bug of Select](https://github.com/clarkyu2016/sql-beautify/issues/49) @maohr
+
 ### 0.3.16 (2022/11/21)
 * 合并了@fourgold的Pull，优化了强制转换关键词为小写的体验
 * Merge [Fourgold's Pull](https://github.com/clarkyu2016/sql-beautify/pull/46) @fourgold
