@@ -1,5 +1,12 @@
 
 ## 😎 更迭日志 Release Notes
+
+### 0.3.20 (2023/07/25)
+* 修正了关键词小写转换bug@lpy1997c
+* FIx [the bug of lowercase](https://github.com/clarkyu2016/sql-beautify/issues/47) @lpy1997c
+* SQL中lambda表达式中的-> 中间添加空格@MuRo-J
+* FIx [the bug of lambda expression](https://github.com/clarkyu2016/sql-beautify/issues/51) @MuRo-J
+
 ### 0.3.17 (2023/03/14)
 * 修正了字段中的select会被分行@maohr
 * FIx [the bug of Select](https://github.com/clarkyu2016/sql-beautify/issues/49) @maohr

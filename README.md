@@ -64,23 +64,18 @@ Please be careful when use this plugin. Do not use it for the whole file. Recomm
 
 * 如果你真的遇到什么问题了，请先`Ctrl+z`恢复你的代码，然后可以联系我修复可能存在的问题。If you have some problems, try to use `Ctrl+z` to recover your code and contact me to fix the bug if you wish.
 
+* Chatgpt横空出世，本插件几乎宣告下岗。Chatgpt was born out of nowhere, this plug-in was almost laid off
 
 # 😎 更迭日志 Release Notes
-### 0.3.16 (2022/11/21)
-* 合并了@fourgold的Pull，优化了强制转换关键词为小写的体验
-* Merge [Fourgold's Pull](https://github.com/clarkyu2016/sql-beautify/pull/46) @fourgold
+### 0.3.20 (2023/07/25)
+* 修正了关键词小写转换bug@lpy1997c
+* FIx [the bug of lowercase](https://github.com/clarkyu2016/sql-beautify/issues/47) @lpy1997c
+* SQL中lambda表达式中的-> 中间添加空格@MuRo-J
+* FIx [the bug of lambda expression](https://github.com/clarkyu2016/sql-beautify/issues/51) @MuRo-J
 
-### 0.3.13 (2022/06/15)
-* 修正了注释下面接with语句的格式化问题@BryceQin
-* FIx [the bug of COMMENT and With](https://github.com/clarkyu2016/sql-beautify/issues/40) @BryceQin
-* 修正了DDL中表名带有特定关键字时会出现错误@YouboFAN
-* FIx [the bug of DDL with keywords](https://github.com/clarkyu2016/sql-beautify/issues/39) @YouboFAN
-* 修正了:= 会被添加空格导致失效@lpzzz
-* FIx [the bug of :=](https://github.com/clarkyu2016/sql-beautify/issues/38) @lpzzz
-
-### 0.3.9 (2022/05/27)
-* 调整了引号内的格式化逻辑，修正以前的错误问题(看起来很难遇到的[“大优化”](https://github.com/clarkyu2016/sql-beautify/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89#%E6%96%B0%E5%A2%9E%E4%BA%86%E5%AF%B9%E5%BC%95%E5%8F%B7%E5%86%85%E5%AD%97%E7%AC%A6%E4%B8%8D%E6%93%8D%E4%BD%9C%E7%9A%84%E9%80%BB%E8%BE%91-20220527))
-* Adjusted logic for formatting "string" inside quotes
+### 0.3.17 (2023/03/14)
+* 修正了字段中的select会被分行@maohr
+* FIx [the bug of Select](https://github.com/clarkyu2016/sql-beautify/issues/49) @maohr
 
 
  [**More Release Notes**](https://github.com/clarkyu2016/sql-beautify/blob/main/CHANGELOG.md)
