@@ -67,6 +67,10 @@ Please be careful when use this plugin. Do not use it for the whole file. Recomm
 * Chatgpt横空出世，本插件几乎宣告下岗。Chatgpt was born out of nowhere, this plug-in was almost laid off
 
 # 😎 更迭日志 Release Notes
+### 0.3.22 (2023/08/26)
+* 修正了一些BUG
+* FIx some bugs
+
 ### 0.3.20 (2023/07/25)
 * 修正了关键词小写转换bug@lpy1997c
 * FIx [the bug of lowercase](https://github.com/clarkyu2016/sql-beautify/issues/47) @lpy1997c
